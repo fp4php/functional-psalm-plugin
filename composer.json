@@ -1,0 +1,34 @@
+{
+  "name": "fp4php/functional-psalm-plugin",
+  "type": "psalm-plugin",
+  "authors": [
+    {
+      "name": "Andrew K.",
+      "email": "klimichkartorgnusov@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "vimeo/psalm": "^5.7",
+    "fp4php/functional": "dev-psalm-v5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fp\\PsalmPlugin\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Fp\\PsalmPlugin\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "psalm": {
+      "pluginClass": "FunctionalPlugin"
+    }
+  }
+}

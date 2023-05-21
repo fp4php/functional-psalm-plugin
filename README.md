@@ -1,7 +1,7 @@
 # fp4php/functional psalm plugin
 
-![psalm level](https://shepherd.dev/github/whsv26/functional/level.svg)
-![psalm type coverage](https://shepherd.dev/github/whsv26/functional/coverage.svg)
+![psalm level](https://shepherd.dev/github/fp4php/functional-psalm-plugin/level.svg)
+![psalm type coverage](https://shepherd.dev/github/fp4php/functional-psalm-plugin/coverage.svg)
 
 ## Installation
 
